@@ -1,0 +1,37 @@
+/*!
+ * HalfStyle
+ * Copyright 2014 Arbel Hakopian
+ * Licensed under MIT (https://github.com/arbelh/HalfStyle/license.md)
+ */
+.halfStyle {
+    position:relative;
+    display:inline-block;
+    font-size:80px; /* or any font size will work */
+    color: transparent; /* hide the base character */
+    overflow:hidden;
+    white-space: pre; /* to preserve the spaces from collapsing */
+}
+.halfStyle:before { /* creates the left part */
+    display:block;
+    z-index:1;
+    position:absolute;
+    top:0;
+    width: 50%;
+    content: attr(data-content); /* dynamic content for the pseudo element */
+    overflow:hidden;
+    color: #f00; /* for demo purposes */
+    text-shadow: 2px -2px 0px #af0; /* for demo purposes */
+}
+.halfStyle:after { /* creates the right part */
+    display:block;
+    direction: rtl; /* very important, will make the width to start from right */
+    position:absolute;
+    z-index:-1;
+    top:0;
+    left:50%;
+    width: 50%;
+    content: attr(data-content); /* dynamic content for the pseudo element */
+    overflow:hidden;
+    color: #000; /* for demo purposes */
+    text-shadow: 2px 2px 0px #0af; /* for demo purposes */
+}
