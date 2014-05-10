@@ -23,7 +23,7 @@ The included jQuery snippet will do the rest of the job.
 <hr/>
 ##License
 - HalfStyle is licensed under the MIT License located at:
-- http://opensource.org/licenses/mit-license.html
+- https://github.com/arbelh/HalfStyle/license.md
 <hr/>
 
 ##Changelog
