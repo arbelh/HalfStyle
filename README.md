@@ -27,6 +27,9 @@ The included jQuery snippet will do the rest of the job.
 <hr/>
 
 ##Changelog
+- v1.0.1
+ - Added support for accessibility, like audio screen readers or brail readers for the blind or visually impaired,
+ - Now the base char is selectable by mouse.
 - v1.0.0 - First Version
 <hr/>
 
@@ -34,4 +37,4 @@ The included jQuery snippet will do the rest of the job.
 - Email: arbel.hakopian@gmail.com
 - GitHub: https://github.com/arbelh
 <hr/>
-[1]: http://jsfiddle.net/pd9yB/22/
+[1]: http://jsfiddle.net/pd9yB/30/

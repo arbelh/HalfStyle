@@ -1,7 +1,7 @@
 /*!
  * HalfStyle
  * Copyright 2014 Arbel Hakopian
- * Licensed under MIT (https://github.com/arbelh/HalfStyle/license.md)
+ * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
  */
 .halfStyle {
     position:relative;
@@ -19,6 +19,7 @@
     width: 50%;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
+    pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
     color: #f00; /* for demo purposes */
     text-shadow: 2px -2px 0px #af0; /* for demo purposes */
 }
@@ -26,12 +27,13 @@
     display:block;
     direction: rtl; /* very important, will make the width to start from right */
     position:absolute;
-    z-index:-1;
+    z-index:2;
     top:0;
     left:50%;
     width: 50%;
     content: attr(data-content); /* dynamic content for the pseudo element */
     overflow:hidden;
+    pointer-events: none; /* so the base char is selectable by mouse and the click handlers bound on it will fire */
     color: #000; /* for demo purposes */
     text-shadow: 2px 2px 0px #0af; /* for demo purposes */
 }
