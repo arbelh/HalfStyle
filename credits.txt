@@ -1,0 +1,2 @@
+I originally created the HalfStyle plugin to provide a solution to an interesting question asked by user MathewMacLean on StackOverflow.
+http://stackoverflow.com/questions/23569441/is-it-possible-to-apply-css-to-half-of-a-character
