@@ -36,5 +36,6 @@ The included jQuery snippet will do the rest of the job.
 ##Author
 - Email: arbel.hakopian@gmail.com
 - GitHub: https://github.com/arbelh
+- Los Angeles, CA
 <hr/>
 [1]: http://jsfiddle.net/pd9yB/30/
