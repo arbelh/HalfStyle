@@ -29,6 +29,8 @@ The included jQuery snippet will do the rest of the job.
 <hr/>
 
 ##Changelog
+- v1.2.0
+ - Moving DOM write to outside of loop (better performance)
 - v1.1.0
  - Replaced DOM ready function with the short version with failsafe $ alias
  - Initializing vars only once in each scope
@@ -46,5 +48,5 @@ The included jQuery snippet will do the rest of the job.
 - GitHub: https://github.com/arbelh
 - Los Angeles, CA
 <hr/>
-[1]: http://jsfiddle.net/pd9yB/108/
+[1]: http://jsfiddle.net/pd9yB/400/
 [2]: https://github.com/arbelh/HalfStyle/archive/master.zip

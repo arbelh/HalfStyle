@@ -3,3 +3,4 @@ http://stackoverflow.com/questions/23569441/is-it-possible-to-apply-css-to-half-
 
 Thanks to the following for their time, interest, improvements and contributions:
 - User Stig on GitHub.com
+- User mstrutt on GitHub.com
