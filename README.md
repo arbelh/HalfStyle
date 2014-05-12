@@ -10,6 +10,8 @@ Works on any dynamic text, or a single character, and is all automated. All you 
 <hr/>
 #[**See a Demo**][1]
 <hr/>
+#[**Download**][2]
+<hr/>
 ###For a single character:
 
 Pure CSS. All you need to do is add the class `.halfStyle` class to the element containing the character you want to be half-styled.
@@ -45,3 +47,4 @@ The included jQuery snippet will do the rest of the job.
 - Los Angeles, CA
 <hr/>
 [1]: http://jsfiddle.net/pd9yB/108/
+[2]: https://github.com/arbelh/HalfStyle/archive/master.zip
