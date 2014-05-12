@@ -4,7 +4,7 @@
  * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
  */
 jQuery(function($) {
-    var text, chars, $el, i;
+    var text, chars, $el, i, output;
 
     // Iterate over all class occurences
     $('.textToHalfStyle').each(function(idx, el) {
@@ -15,10 +15,16 @@ jQuery(function($) {
         // Set the screen-reader text
         $el.html('<span style="position: absolute !important;clip: rect(1px 1px 1px 1px);clip: rect(1px, 1px, 1px, 1px);">' + text + '</span>');
 
+        // Reset output for appending
+        output = '';
+
         // Iterate over all chars in the text
         for (i = 0; i < chars.length; i++) {
             // Create a styled element for each character and append to container
-            $el.append('<span aria-hidden="true" class="halfStyle" data-content="' + chars[i] + '">' + chars[i] + '</span>');
+            output += '<span aria-hidden="true" class="halfStyle" data-content="' + chars[i] + '">' + chars[i] + '</span>';
         }
+
+        // Write to DOM only once
+        $el.append(output);
     });
 });
