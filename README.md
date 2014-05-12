@@ -27,8 +27,14 @@ The included jQuery snippet will do the rest of the job.
 <hr/>
 
 ##Changelog
+- v1.1.0
+ - Replaced DOM ready function with the short version with failsafe $ alias
+ - Initializing vars only once in each scope
+ - Removed unnecessary searches in the DOM ( multiple $('') statements for the same item )
+ - Shortened some code
+ - Now supports more than one element with HalfStyle full text replacement (multiple `.textToHalfStyle` elements)
 - v1.0.1
- - Added support for accessibility, like audio screen readers or brail readers for the blind or visually impaired,
+ - Added support for accessibility, like audio screen readers or brail readers for the blind or visually impaired.
  - Now the base char is selectable by mouse.
 - v1.0.0 - First Version
 <hr/>
@@ -38,4 +44,4 @@ The included jQuery snippet will do the rest of the job.
 - GitHub: https://github.com/arbelh
 - Los Angeles, CA
 <hr/>
-[1]: http://jsfiddle.net/pd9yB/30/
+[1]: http://jsfiddle.net/pd9yB/108/
