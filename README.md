@@ -1,27 +1,33 @@
 #HalfStyle
 <hr/>
-##style each half of a character, independently and individually.
+##style each half or third of a character, vertically or horizontally, independently and individually.
 <hr/>
 An easy to use plugin.
 
-HalfStyle is a set of advanced CSS rules that allow styling each half of a character, independently and individually.
+HalfStyle is a set of advanced CSS rules that allow styling each half or third of a character, vertically or horizontally, independently and individually.
 
 Works on any dynamic text, or a single character, and is all automated. All you need to do is add a class on the target text and the rest is taken care of.
+
+It also preservs the original text's accessibility for screen readers for the blind or visually impaired.
 <hr/>
-#[**See a Demo**][1]
+#[**See a Demo**][1] or [**Another Demo**][3]
 <hr/>
-#[**Download**][2]
+#[**Download Zip**][2]
 <hr/>
 ###For a single character:
 
-Pure CSS. All you need to do is add the class `.halfStyle` class to the element containing the character you want to be half-styled.
+Pure CSS. All you need to do is add the classes `.halfStyle [-CustomClassName-]` to the element containing the character you want to be half-styled.
 
-For each element containing the character, a data attribute holds the character, for example `data-content="X"`, and the pseudo element uses `content:attr(data-content);` so the `.halfStyle:before` class will be dynamic and you won't need to hard code it for every instance.
+For each element containing the character, a data attribute holds the character, for example `data-content="X"`, and the pseudo element uses `content:attr(data-content);` so the `.halfStyle.[-CustomClassName-]:before` class will be dynamic and you won't need to hard code it for every instance.
 
 ###For Any text:
 
-Simply add `.textToHalfStyle` class to the element containing the text.
+Simply add `.textToHalfStyle` class and data attribute `data-halfstyle="[-CustomClassName-]"` to the element containing the text.
 The included jQuery snippet will do the rest of the job.
+
+You can also define multiple Half-Style style-sets and tell the plugin which one to use on your desired element.
+
+The included `demo.htm` file holds several examples for you.
 <hr/>
 ##License
 - HalfStyle is licensed under the MIT License located at:
@@ -29,6 +35,10 @@ The included jQuery snippet will do the rest of the job.
 <hr/>
 
 ##Changelog
+- v2.0.0
+ - Customized Half-Styles dynamic support is the major update. The plugin can use a customized style-set via `data-halfstyle="hs-[CustomClassName]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
+ - Prefixed javascript variable names to avoid conflicts with other scripts.
+ - Added multiple demos in `demo.html`
 - v1.2.0
  - Moving DOM write to outside of loop (better performance)
 - v1.1.0
@@ -48,5 +58,6 @@ The included jQuery snippet will do the rest of the job.
 - GitHub: https://github.com/arbelh
 - Los Angeles, CA
 <hr/>
-[1]: http://jsfiddle.net/pd9yB/400/
+[1]: http://jsfiddle.net/pd9yB/741/
 [2]: https://github.com/arbelh/HalfStyle/archive/master.zip
+[3]: http://jsfiddle.net/pd9yB/740/
