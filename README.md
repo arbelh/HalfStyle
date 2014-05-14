@@ -36,7 +36,7 @@ The included `demo.htm` file holds several examples for you.
 
 ##Changelog
 - v2.0.0
- - Customized Half-Styles dynamic support is the major update. The plugin can use a customized style-set via `data-halfstyle="hs-[CustomClassName]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
+ - Customized Half-Styles dynamic support is the major update. The plugin can use a customized Half-Style style-set via `data-halfstyle="[-CustomClassName-]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
  - Prefixed javascript variable names to avoid conflicts with other scripts.
  - Added multiple demos in `demo.html`
 - v1.2.0
