@@ -172,7 +172,7 @@
 }
 /* end half-style hs-horizontal-third */
 
-/* start half-style hs-PeelingStyle */
+/* start half-style hs-PeelingStyle, by user SamTremaine on Stackoverflow.com */
 .halfStyle.hs-PeelingStyle {
     position: relative;
     display: inline-block;

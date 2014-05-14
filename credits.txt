@@ -5,4 +5,4 @@ Thanks to the following for their time, interest, improvements and contributions
 - User Stig on GitHub.com
 - User mstrutt on GitHub.com
 - User KevinGranger on StackOverflow.com
-- User SameTremaine on StackOverflow.com
+- User SamTremaine on StackOverflow.com
