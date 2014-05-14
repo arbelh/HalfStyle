@@ -27,7 +27,7 @@ The included jQuery snippet will do the rest of the job.
 
 You can also define multiple Half-Style style-sets and tell the plugin which one to use on your desired element.
 
-The included `demo.htm` file holds several examples for you.
+The included `demo.html` file holds several examples for you.
 <hr/>
 ##License
 - HalfStyle is licensed under the MIT License located at:
