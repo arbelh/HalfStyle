@@ -2,7 +2,7 @@ I originally created the HalfStyle plugin to provide a solution to an interestin
 http://stackoverflow.com/questions/23569441/is-it-possible-to-apply-css-to-half-of-a-character
 
 Thanks to the following for their time, interest, improvements and contributions:
-- User Stig on GitHub.com
+- User stigok on GitHub.com
 - User mstrutt on GitHub.com
 - User KevinGranger on StackOverflow.com
 - User SamTremaine on StackOverflow.com
