@@ -1,7 +1,10 @@
 # HalfStyle
 <hr/>
-## style each half or third of a character, vertically or horizontally, independently and individually.
+
+## Style each half or third of a character, vertically or horizontally, independently and individually.
+
 <hr/>
+
 An easy to use plugin.
 
 HalfStyle is a set of advanced CSS rules that allow styling each half or third of a character, vertically or horizontally, independently and individually.
@@ -9,11 +12,17 @@ HalfStyle is a set of advanced CSS rules that allow styling each half or third o
 Works on any dynamic text, or a single character, and is all automated. All you need to do is add a class on the target text and the rest is taken care of.
 
 It also preservs the original text's accessibility for screen readers for the blind or visually impaired.
+
 <hr/>
-# [** See a Demo **][1] or [** Another Demo **][3]
+
+# [**See a Demo**][1] or [**Another Demo**][3]
+
 <hr/>
-# [** Download Zip **][2]
+
+# [**Download Zip**][2]
+
 <hr/>
+
 ### For a single character:
 
 Pure CSS. All you need to do is add the classes `.halfStyle [-CustomClassName-]` to the element containing the character you want to be half-styled.
@@ -29,12 +38,14 @@ You can also define multiple Half-Style style-sets and tell the plugin which one
 
 The included `demo.html` file holds several examples for you.
 <hr/>
+
 ## License
 - HalfStyle is licensed under the MIT License located at:
 - https://github.com/arbelh/HalfStyle/blob/master/license.md
 <hr/>
 
 ## Changelog
+
 - v2.0.0
  - Customized Half-Styles dynamic support is the major update. The plugin can use a customized Half-Style style-set via `data-halfstyle="[-CustomClassName-]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
  - Prefixed javascript variable names to avoid conflicts with other scripts.
@@ -58,6 +69,7 @@ The included `demo.html` file holds several examples for you.
 - GitHub: https://github.com/arbelh
 - Los Angeles, CA
 <hr/>
+
 [1]: http://jsfiddle.net/pd9yB/741/
 [2]: https://github.com/arbelh/HalfStyle/archive/master.zip
 [3]: http://jsfiddle.net/pd9yB/740/
