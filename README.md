@@ -1,6 +1,6 @@
-#HalfStyle
+# HalfStyle
 <hr/>
-##style each half or third of a character, vertically or horizontally, independently and individually.
+## style each half or third of a character, vertically or horizontally, independently and individually.
 <hr/>
 An easy to use plugin.
 
@@ -10,17 +10,17 @@ Works on any dynamic text, or a single character, and is all automated. All you 
 
 It also preservs the original text's accessibility for screen readers for the blind or visually impaired.
 <hr/>
-#[**See a Demo**][1] or [**Another Demo**][3]
+# [** See a Demo **][1] or [** Another Demo **][3]
 <hr/>
-#[**Download Zip**][2]
+# [** Download Zip **][2]
 <hr/>
-###For a single character:
+### For a single character:
 
 Pure CSS. All you need to do is add the classes `.halfStyle [-CustomClassName-]` to the element containing the character you want to be half-styled.
 
 For each element containing the character, a data attribute holds the character, for example `data-content="X"`, and the pseudo element uses `content:attr(data-content);` so the `.halfStyle.[-CustomClassName-]:before` class will be dynamic and you won't need to hard code it for every instance.
 
-###For Any text:
+### For Any text:
 
 Simply add `.textToHalfStyle` class and data attribute `data-halfstyle="[-CustomClassName-]"` to the element containing the text.
 The included jQuery snippet will do the rest of the job.
@@ -29,12 +29,12 @@ You can also define multiple Half-Style style-sets and tell the plugin which one
 
 The included `demo.html` file holds several examples for you.
 <hr/>
-##License
+## License
 - HalfStyle is licensed under the MIT License located at:
 - https://github.com/arbelh/HalfStyle/blob/master/license.md
 <hr/>
 
-##Changelog
+## Changelog
 - v2.0.0
  - Customized Half-Styles dynamic support is the major update. The plugin can use a customized Half-Style style-set via `data-halfstyle="[-CustomClassName-]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
  - Prefixed javascript variable names to avoid conflicts with other scripts.
@@ -53,7 +53,7 @@ The included `demo.html` file holds several examples for you.
 - v1.0.0 - First Version
 <hr/>
 
-##Author
+## Author
 - Email: arbel.hakopian@gmail.com
 - GitHub: https://github.com/arbelh
 - Los Angeles, CA
