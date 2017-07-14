@@ -1,6 +1,7 @@
 /*!
  * HalfStyle
  * Copyright 2014 Arbel Hakopian
+ * Git Repository https://github.com/arbelh/HalfStyle/
  * Licensed under MIT (https://github.com/arbelh/HalfStyle/blob/master/license.md)
  */
 jQuery(function($) {
@@ -25,7 +26,20 @@ jQuery(function($) {
             halfstyle_output += '<span aria-hidden="true" class="halfStyle ' + halfstyle_style + '" data-content="' + halfstyle_chars[halfstyle_i] + '">' + halfstyle_chars[halfstyle_i] + '</span>';
         }
 
+        // Chrome 59 and above specific fix - Part 1 - Addresses a Chrome bug where Chrome fails to corectly render and repaint pseudo elements - I came up with this fix after many different tests.
+        var _applyChromeFix = !!window.chrome && !!navigator.appVersion.match(/.*Chrome\/([0-9\.]+)/) && parseInt(navigator.appVersion.match(/.*Chrome\/([0-9\.]+)/)[1], 10) >= 59;
+        if (_applyChromeFix) {
+            halfstyle_output += '<style>.halfStyle{}</style>';
+        }
+
         // Write to DOM only once
         $halfstyle_el.append(halfstyle_output);
+
+        // Chrome 59 and above specific fix - Part 2
+        if (_applyChromeFix) {
+            setTimeout(function(){
+                $halfstyle_el.find('style').remove();
+            }, 0);
+        }
     });
 });

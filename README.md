@@ -45,6 +45,8 @@ The included `demo.html` file holds several examples for you.
 <hr/>
 
 ## Changelog
+- v2.0.1
+ - Fixes a Chrome 59 and above issue - Addresses a Chrome bug where Chrome fails to correctly render and repaint pseudo elements - I came up with this fix after many different tests.
 
 - v2.0.0
  - Customized Half-Styles dynamic support is the major update. The plugin can use a customized Half-Style style-set via `data-halfstyle="[-CustomClassName-]"` on the target `.textToHalfStyle` elements. You can define multiple Half-Style style-sets and tell the plugin which one to use.
@@ -70,6 +72,6 @@ The included `demo.html` file holds several examples for you.
 - Los Angeles, CA
 <hr/>
 
-[1]: http://jsfiddle.net/pd9yB/741/
+[1]: http://jsfiddle.net/arbel/pd9yB/1354/
 [2]: https://github.com/arbelh/HalfStyle/archive/master.zip
-[3]: http://jsfiddle.net/pd9yB/740/
+[3]: http://jsfiddle.net/arbel/pd9yB/1353/
