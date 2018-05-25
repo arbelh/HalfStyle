@@ -10,7 +10,7 @@ jQuery(function($) {
     // Iterate over all class occurrences
     $('.textToHalfStyle').each(function(idx, halfstyle_el) {
         $halfstyle_el = $(halfstyle_el);
-        halfstyle_style = $halfstyle_el.data('halfstyle');
+        halfstyle_style = $halfstyle_el.data('halfstyle') || 'hs-base';
         halfstyle_text = $halfstyle_el.text();
         halfstyle_chars = halfstyle_text.split('');
 

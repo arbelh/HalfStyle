@@ -45,6 +45,8 @@ The included `demo.html` file holds several examples for you.
 <hr/>
 
 ## Changelog
+- v2.0.2
+ - Sets the default HalfStyle style-set to 'hs-base' if no 'data-halfstyle' attribute is present on '.textToHalfStyle' instances.
 - v2.0.1
  - Fixes a Chrome 59 and above issue - Addresses a Chrome bug where Chrome fails to correctly render and repaint pseudo elements - I came up with this fix after many different tests.
 
@@ -72,6 +74,6 @@ The included `demo.html` file holds several examples for you.
 - Los Angeles, CA
 <hr/>
 
-[1]: http://jsfiddle.net/arbel/pd9yB/1354/
+[1]: http://jsfiddle.net/arbel/pd9yB/1693/
 [2]: https://github.com/arbelh/HalfStyle/archive/master.zip
-[3]: http://jsfiddle.net/arbel/pd9yB/1353/
+[3]: http://jsfiddle.net/arbel/pd9yB/1692/
